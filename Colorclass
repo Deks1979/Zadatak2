@@ -1,0 +1,21 @@
+package sattajmer;
+
+import java.awt.Color;
+import javax.swing.JFrame;
+
+
+public class Colorclass {
+    
+      static JFrame cf;  
+   
+      static void startTheColor(){  
+      
+      cf.setSize(500,200);  
+      cf.setLocation(605, 190);  
+      cf.getContentPane().setBackground(Color.white.darker());  
+      cf.setTitle("BOJA");  
+      cf.setVisible(true);     
+    
+    
+    
+}}
